@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\frmurunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\frmurunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\frmurunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\frmurunler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmUrunler.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmUrunler.cs",
+              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\FrmUrunler.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmUrunler.cs",
+              "RelativeToolTip": "OtomasyonUygulamas\u0131\\FrmUrunler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwBsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:17:14.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmUrunler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmUrunler.cs",
+              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\FrmUrunler.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmUrunler.cs [Design]",
+              "RelativeToolTip": "OtomasyonUygulamas\u0131\\FrmUrunler.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:17:11.893Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbConnection.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\dbConnection.cs",
+              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\dbConnection.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\dbConnection.cs",
+              "RelativeToolTip": "OtomasyonUygulamas\u0131\\dbConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAACZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T18:58:47.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
