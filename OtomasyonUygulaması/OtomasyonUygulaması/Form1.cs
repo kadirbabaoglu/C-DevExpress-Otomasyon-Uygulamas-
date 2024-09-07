@@ -16,21 +16,37 @@ namespace OtomasyonUygulaması
         {
             InitializeComponent();
         }
+        private void FormClosedHandler(object sender, FormClosedEventArgs e)
+        {
+            
+            frm = null;
+            frm2 = null;
+        }
 
         FrmUrunler frm;
         private void BtnUrunler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm == null || frm.IsDisposed)
+            if (frm == null)
             {
-                frm = new FrmUrunler(); 
-                frm.MdiParent = this;   
-                frm.Show();        
+                frm = new FrmUrunler();
+                frm.MdiParent = this;
+                frm.FormClosed += new FormClosedEventHandler(FormClosedHandler);
+                frm.Show();
             }
-            else
-            {
-                frm.Activate();
-            }
+
         }
 
+        FrmMusteriler frm2;
+        private void BtnMusteriler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm2 == null)
+            {
+                frm2 = new FrmMusteriler();
+                frm2.MdiParent = this;
+                frm2.FormClosed += new FormClosedEventHandler(FormClosedHandler);
+                frm2.Show();
+            }
+
+        }
     }
 }

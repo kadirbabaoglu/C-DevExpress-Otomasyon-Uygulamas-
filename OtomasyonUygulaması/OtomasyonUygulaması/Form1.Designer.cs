@@ -42,6 +42,8 @@
             this.BtnNotlar = new DevExpress.XtraBars.BarButtonItem();
             this.BtnBankalar = new DevExpress.XtraBars.BarButtonItem();
             this.BtnRehber = new DevExpress.XtraBars.BarButtonItem();
+            this.BtnFaturalar = new DevExpress.XtraBars.BarButtonItem();
+            this.BtnAyarlar = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -54,13 +56,11 @@
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup13 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageGroup13 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.BtnFaturalar = new DevExpress.XtraBars.BarButtonItem();
-            this.BtnAyarlar = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -110,64 +110,79 @@
             // 
             this.BtnStoklar.Caption = "STOKLAR";
             this.BtnStoklar.Id = 3;
-            this.BtnStoklar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
+            this.BtnStoklar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnStoklar.ImageOptions.LargeImage")));
             this.BtnStoklar.Name = "BtnStoklar";
             // 
             // BtnMusteriler
             // 
             this.BtnMusteriler.Caption = "MÜŞTERİLER";
             this.BtnMusteriler.Id = 4;
-            this.BtnMusteriler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.BtnMusteriler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnMusteriler.ImageOptions.LargeImage")));
             this.BtnMusteriler.Name = "BtnMusteriler";
+            this.BtnMusteriler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnMusteriler_ItemClick);
             // 
             // BtnFirmalar
             // 
             this.BtnFirmalar.Caption = "FİRMALAR";
             this.BtnFirmalar.Id = 5;
-            this.BtnFirmalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.BtnFirmalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnFirmalar.ImageOptions.LargeImage")));
             this.BtnFirmalar.Name = "BtnFirmalar";
             // 
             // BtnPersoneller
             // 
             this.BtnPersoneller.Caption = "PERSONELLER";
             this.BtnPersoneller.Id = 6;
-            this.BtnPersoneller.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
+            this.BtnPersoneller.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnPersoneller.ImageOptions.LargeImage")));
             this.BtnPersoneller.Name = "BtnPersoneller";
             // 
             // BtnGiderler
             // 
             this.BtnGiderler.Caption = "GİDERLER";
             this.BtnGiderler.Id = 7;
-            this.BtnGiderler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
+            this.BtnGiderler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnGiderler.ImageOptions.LargeImage")));
             this.BtnGiderler.Name = "BtnGiderler";
             // 
             // BtnKasa
             // 
             this.BtnKasa.Caption = "KASA";
             this.BtnKasa.Id = 8;
-            this.BtnKasa.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.BtnKasa.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnKasa.ImageOptions.LargeImage")));
             this.BtnKasa.Name = "BtnKasa";
             // 
             // BtnNotlar
             // 
             this.BtnNotlar.Caption = "NOTLAR";
             this.BtnNotlar.Id = 9;
-            this.BtnNotlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
+            this.BtnNotlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnNotlar.ImageOptions.LargeImage")));
             this.BtnNotlar.Name = "BtnNotlar";
             // 
             // BtnBankalar
             // 
             this.BtnBankalar.Caption = "BANKALAR";
             this.BtnBankalar.Id = 10;
-            this.BtnBankalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem9.ImageOptions.LargeImage")));
+            this.BtnBankalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnBankalar.ImageOptions.LargeImage")));
             this.BtnBankalar.Name = "BtnBankalar";
             // 
             // BtnRehber
             // 
             this.BtnRehber.Caption = "REHBER";
             this.BtnRehber.Id = 11;
-            this.BtnRehber.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.LargeImage")));
+            this.BtnRehber.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnRehber.ImageOptions.LargeImage")));
             this.BtnRehber.Name = "BtnRehber";
+            // 
+            // BtnFaturalar
+            // 
+            this.BtnFaturalar.Caption = "FATURALAR";
+            this.BtnFaturalar.Id = 12;
+            this.BtnFaturalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnFaturalar.ImageOptions.LargeImage")));
+            this.BtnFaturalar.Name = "BtnFaturalar";
+            // 
+            // BtnAyarlar
+            // 
+            this.BtnAyarlar.Caption = "AYARLAR";
+            this.BtnAyarlar.Id = 13;
+            this.BtnAyarlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnAyarlar.ImageOptions.LargeImage")));
+            this.BtnAyarlar.Name = "BtnAyarlar";
             // 
             // ribbonPage1
             // 
@@ -243,9 +258,19 @@
             this.ribbonPageGroup11.ItemLinks.Add(this.BtnRehber);
             this.ribbonPageGroup11.Name = "ribbonPageGroup11";
             // 
+            // ribbonPageGroup12
+            // 
+            this.ribbonPageGroup12.ItemLinks.Add(this.BtnFaturalar);
+            this.ribbonPageGroup12.Name = "ribbonPageGroup12";
+            // 
+            // ribbonPageGroup13
+            // 
+            this.ribbonPageGroup13.ItemLinks.Add(this.BtnAyarlar);
+            this.ribbonPageGroup13.Name = "ribbonPageGroup13";
+            // 
             // ribbonStatusBar1
             // 
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 634);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 741);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl1;
             this.ribbonStatusBar1.Size = new System.Drawing.Size(1265, 24);
@@ -259,40 +284,17 @@
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // ribbonPageGroup12
-            // 
-            this.ribbonPageGroup12.ItemLinks.Add(this.BtnFaturalar);
-            this.ribbonPageGroup12.Name = "ribbonPageGroup12";
-            // 
-            // ribbonPageGroup13
-            // 
-            this.ribbonPageGroup13.ItemLinks.Add(this.BtnAyarlar);
-            this.ribbonPageGroup13.Name = "ribbonPageGroup13";
-            // 
-            // BtnFaturalar
-            // 
-            this.BtnFaturalar.Caption = "FATURALAR";
-            this.BtnFaturalar.Id = 12;
-            this.BtnFaturalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
-            this.BtnFaturalar.Name = "BtnFaturalar";
-            // 
-            // BtnAyarlar
-            // 
-            this.BtnAyarlar.Caption = "AYARLAR";
-            this.BtnAyarlar.Id = 13;
-            this.BtnAyarlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem12.ImageOptions.LargeImage")));
-            this.BtnAyarlar.Name = "BtnAyarlar";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1265, 658);
+            this.ClientSize = new System.Drawing.Size(1265, 765);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar1;
             this.Text = "Otomasyon Uygulaması";
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();

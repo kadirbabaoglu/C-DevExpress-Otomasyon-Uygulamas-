@@ -43,3 +43,11 @@ C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uyg
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmUrunler.resources
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.exe.licenses
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\Otomasyo.D041A10A.Up2Date
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.Core.Desktop.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.Core.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.Images.v24.1.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.Core.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.Core.Desktop.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmMusteriler.resources
