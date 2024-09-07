@@ -127,6 +127,7 @@
             this.BtnFirmalar.Id = 5;
             this.BtnFirmalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnFirmalar.ImageOptions.LargeImage")));
             this.BtnFirmalar.Name = "BtnFirmalar";
+            this.BtnFirmalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnFirmalar_ItemClick);
             // 
             // BtnPersoneller
             // 

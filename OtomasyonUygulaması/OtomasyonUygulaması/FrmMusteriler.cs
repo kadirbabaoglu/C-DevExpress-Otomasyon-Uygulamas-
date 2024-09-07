@@ -30,7 +30,7 @@ namespace OtomasyonUygulaması
 
         public void sehirListele()
         {
-            var connection = dbconn.connection(); // Bağlantıyı bir kez açıyoruz
+            var connection = dbconn.connection(); 
             SqlCommand sqlCommand = new SqlCommand("Select SEHIR from TBL_ILLER", connection);
             SqlDataReader reader = sqlCommand.ExecuteReader();
 
@@ -39,8 +39,8 @@ namespace OtomasyonUygulaması
                 cmbil.Properties.Items.Add(reader[0]); 
             }
 
-            reader.Close(); // SqlDataReader'ı kapatıyoruz
-            connection.Close(); // Bağlantıyı kapatıyoruz
+            reader.Close();
+            connection.Close(); 
         }
 
         void temizle()
