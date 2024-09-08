@@ -135,6 +135,7 @@
             this.BtnPersoneller.Id = 6;
             this.BtnPersoneller.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnPersoneller.ImageOptions.LargeImage")));
             this.BtnPersoneller.Name = "BtnPersoneller";
+            this.BtnPersoneller.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnPersoneller_ItemClick);
             // 
             // BtnGiderler
             // 

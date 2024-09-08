@@ -168,5 +168,6 @@ namespace OtomasyonUygulaması
             MessageBox.Show("Yeni Müşteri başarılı bir şekilde güncellendi", "Müşteri İşlemleri", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Listele();
         }
+
     }
 }

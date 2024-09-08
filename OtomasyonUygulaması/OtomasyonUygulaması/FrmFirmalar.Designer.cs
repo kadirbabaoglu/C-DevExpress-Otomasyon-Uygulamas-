@@ -139,6 +139,7 @@
             this.BtnTemizle.Size = new System.Drawing.Size(150, 34);
             this.BtnTemizle.TabIndex = 21;
             this.BtnTemizle.Text = "Temizle";
+            this.BtnTemizle.Click += new System.EventHandler(this.BtnTemizle_Click);
             // 
             // BtnSil
             // 

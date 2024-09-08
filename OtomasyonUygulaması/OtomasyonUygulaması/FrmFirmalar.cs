@@ -70,6 +70,7 @@ namespace OtomasyonUygulaması
         {
             Listele();
             SehirListele();
+            Temizle();
         }
 
         private void cmbil_SelectedIndexChanged(object sender, EventArgs e)
@@ -182,6 +183,11 @@ namespace OtomasyonUygulaması
             dbconn.connection().Close();
             MessageBox.Show("Yeni Firma başarılı bir şekilde güncellendi", "Firma İşlemleri", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Listele();
+            Temizle();
+        }
+
+        private void BtnTemizle_Click(object sender, EventArgs e)
+        {
             Temizle();
         }
     }
