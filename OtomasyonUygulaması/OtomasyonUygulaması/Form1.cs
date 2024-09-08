@@ -23,6 +23,8 @@ namespace OtomasyonUygulaması
             frm2 = null;
             frm3 = null;
             frm4 = null;
+            frm5 = null;
+            frm6 = null;
         }
 
         FrmUrunler frm;
@@ -74,6 +76,30 @@ namespace OtomasyonUygulaması
                 frm4.Show();
             }
 
+        }
+
+        FrmRehber frm5;
+        private void BtnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm5 == null)
+            {
+                frm5 = new FrmRehber();
+                frm5.MdiParent = this;
+                frm5.FormClosed += new FormClosedEventHandler(FormClosedHandler);
+                frm5.Show();
+            }
+        }
+
+        FrmGiderler frm6;
+        private void BtnGiderler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm6 == null)
+            {
+                frm6 = new FrmGiderler();
+                frm6.MdiParent = this;
+                frm6.FormClosed += new FormClosedEventHandler(FormClosedHandler);
+                frm6.Show();
+            }      
         }
     }
 }

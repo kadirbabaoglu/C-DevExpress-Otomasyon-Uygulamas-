@@ -92,7 +92,7 @@ namespace OtomasyonUygulaması
         {
             if (string.IsNullOrEmpty(TxtId.Text))
             {
-                SqlCommand sql = new SqlCommand("Insert Into TBL_FIRMALAR (YETKILISTATU,YETKILIAD,YETKILISOYAD,YETKILITC,SEKTOR,TELEFON,TELEFON1,TELEFON2,FAX,MAIL,IL,ILCE,VERGIDAIRE,ADRES,OZELKOD1,OZELKOD2,OZELKOD3) values" +
+                SqlCommand sql = new SqlCommand("Insert Into TBL_FIRMALAR (YETKILISTATU,FIRMAAD,YETKILIADSOYAD,YETKILITC,SEKTOR,TELEFON,TELEFON1,TELEFON2,FAX,MAIL,IL,ILCE,VERGIDAIRE,ADRES,OZELKOD1,OZELKOD2,OZELKOD3) values" +
                 "(@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11,@p12,@p13,@p14,@p15,@p16,@p17)", dbconn.connection());
                 sql.Parameters.AddWithValue("@p1", TxtGorev.Text);
                 sql.Parameters.AddWithValue("@p2", TxtAd.Text);
@@ -140,8 +140,8 @@ namespace OtomasyonUygulaması
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
             TxtId.Text = dr["ID"].ToString();
             TxtGorev.Text = dr["YETKILISTATU"].ToString();
-            TxtAd.Text = dr["YETKILIAD"].ToString();
-            TxtSoyad.Text = dr["YETKILISOYAD"].ToString();
+            TxtAd.Text = dr["FIRMAAD"].ToString();
+            TxtSoyad.Text = dr["YETKILIADSOYAD"].ToString();
             MskTc.Text = dr["YETKILITC"].ToString();
             TxtSektor.Text = dr["SEKTOR"].ToString();
             MskTelefon1.Text = dr["TELEFON"].ToString();
@@ -160,7 +160,7 @@ namespace OtomasyonUygulaması
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand sql = new SqlCommand("Update TBL_FIRMALAR set YETKILISTATU=@p1,YETKILIAD=@p2,YETKILISOYAD=@p3,YETKILITC=@p4,SEKTOR=@p5,TELEFON=@p6,TELEFON1=@p7,TELEFON2=@p8,FAX=@p9,MAIL=@p10,IL=@p11,ILCE=@p12,VERGIDAIRE=@p13,ADRES=@p14,OZELKOD1=@p15,OZELKOD2=@p16,OZELKOD3=@p17 where ID=@p18 ", dbconn.connection());
+            SqlCommand sql = new SqlCommand("Update TBL_FIRMALAR set YETKILISTATU=@p1,FIRMAAD=@p2,YETKILIADSOYAD=@p3,YETKILITC=@p4,SEKTOR=@p5,TELEFON=@p6,TELEFON1=@p7,TELEFON2=@p8,FAX=@p9,MAIL=@p10,IL=@p11,ILCE=@p12,VERGIDAIRE=@p13,ADRES=@p14,OZELKOD1=@p15,OZELKOD2=@p16,OZELKOD3=@p17 where ID=@p18 ", dbconn.connection());
             sql.Parameters.AddWithValue("@p1", TxtGorev.Text);
             sql.Parameters.AddWithValue("@p2", TxtAd.Text);
             sql.Parameters.AddWithValue("@p3", TxtSoyad.Text);

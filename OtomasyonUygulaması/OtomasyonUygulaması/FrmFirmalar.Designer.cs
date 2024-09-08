@@ -267,8 +267,9 @@
             this.xtraTabPage1.Controls.Add(this.groupControl4);
             this.xtraTabPage1.Controls.Add(this.groupControl3);
             this.xtraTabPage1.Controls.Add(this.groupControl2);
+            this.xtraTabPage1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage1.ImageOptions.Image")));
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(378, 518);
+            this.xtraTabPage1.Size = new System.Drawing.Size(378, 499);
             this.xtraTabPage1.Text = "Firma Bilgileri";
             // 
             // groupControl4
@@ -504,11 +505,11 @@
             // 
             this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl11.Appearance.Options.UseFont = true;
-            this.labelControl11.Location = new System.Drawing.Point(45, 108);
+            this.labelControl11.Location = new System.Drawing.Point(13, 108);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(50, 14);
+            this.labelControl11.Size = new System.Drawing.Size(82, 14);
             this.labelControl11.TabIndex = 7;
-            this.labelControl11.Text = "Soyad : ";
+            this.labelControl11.Text = "Y Ad Soyad : ";
             // 
             // TxtAd
             // 
@@ -523,11 +524,11 @@
             // 
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl10.Appearance.Options.UseFont = true;
-            this.labelControl10.Location = new System.Drawing.Point(66, 77);
+            this.labelControl10.Location = new System.Drawing.Point(30, 77);
             this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(29, 14);
+            this.labelControl10.Size = new System.Drawing.Size(65, 14);
             this.labelControl10.TabIndex = 5;
-            this.labelControl10.Text = "Ad : ";
+            this.labelControl10.Text = "Firma Ad : ";
             // 
             // TxtId
             // 
@@ -555,6 +556,7 @@
             this.xtraTabPage2.Controls.Add(this.BtnSil);
             this.xtraTabPage2.Controls.Add(this.BtnGuncelle);
             this.xtraTabPage2.Controls.Add(this.BtnKaydet);
+            this.xtraTabPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage2.ImageOptions.Image")));
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(378, 518);
             this.xtraTabPage2.Text = "Adres Bilgileri";
@@ -656,8 +658,9 @@
             // 
             this.xtraTabPage3.Controls.Add(this.groupControl7);
             this.xtraTabPage3.Controls.Add(this.groupControl6);
+            this.xtraTabPage3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage3.ImageOptions.Image")));
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(378, 518);
+            this.xtraTabPage3.Size = new System.Drawing.Size(378, 499);
             this.xtraTabPage3.Text = "Özel Kodlar";
             // 
             // groupControl7
@@ -684,8 +687,9 @@
             // xtraTabPage4
             // 
             this.xtraTabPage4.Controls.Add(this.rchKod1);
+            this.xtraTabPage4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage4.ImageOptions.Image")));
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(365, 277);
+            this.xtraTabPage4.Size = new System.Drawing.Size(365, 274);
             this.xtraTabPage4.Text = "Özel Kod 1";
             // 
             // rchKod1
@@ -700,6 +704,7 @@
             // xtraTabPage5
             // 
             this.xtraTabPage5.Controls.Add(this.rchKod2);
+            this.xtraTabPage5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage5.ImageOptions.Image")));
             this.xtraTabPage5.Name = "xtraTabPage5";
             this.xtraTabPage5.Size = new System.Drawing.Size(365, 277);
             this.xtraTabPage5.Text = "Özel Kod 2";
@@ -716,6 +721,7 @@
             // xtraTabPage6
             // 
             this.xtraTabPage6.Controls.Add(this.rchKod3);
+            this.xtraTabPage6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage6.ImageOptions.Image")));
             this.xtraTabPage6.Name = "xtraTabPage6";
             this.xtraTabPage6.Size = new System.Drawing.Size(365, 277);
             this.xtraTabPage6.Text = "Özel Kod 3";

@@ -143,6 +143,7 @@
             this.BtnGiderler.Id = 7;
             this.BtnGiderler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnGiderler.ImageOptions.LargeImage")));
             this.BtnGiderler.Name = "BtnGiderler";
+            this.BtnGiderler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnGiderler_ItemClick);
             // 
             // BtnKasa
             // 
@@ -171,6 +172,7 @@
             this.BtnRehber.Id = 11;
             this.BtnRehber.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnRehber.ImageOptions.LargeImage")));
             this.BtnRehber.Name = "BtnRehber";
+            this.BtnRehber.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnRehber_ItemClick);
             // 
             // BtnFaturalar
             // 
