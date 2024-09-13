@@ -56,3 +56,4 @@ C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uyg
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmRehber.resources
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmMail.resources
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmGiderler.resources
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmBankalar.resources

@@ -165,6 +165,7 @@
             this.BtnBankalar.Id = 10;
             this.BtnBankalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnBankalar.ImageOptions.LargeImage")));
             this.BtnBankalar.Name = "BtnBankalar";
+            this.BtnBankalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnBankalar_ItemClick);
             // 
             // BtnRehber
             // 
