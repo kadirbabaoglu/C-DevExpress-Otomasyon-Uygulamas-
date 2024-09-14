@@ -181,6 +181,7 @@
             this.BtnFaturalar.Id = 12;
             this.BtnFaturalar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnFaturalar.ImageOptions.LargeImage")));
             this.BtnFaturalar.Name = "BtnFaturalar";
+            this.BtnFaturalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnFaturalar_ItemClick);
             // 
             // BtnAyarlar
             // 
