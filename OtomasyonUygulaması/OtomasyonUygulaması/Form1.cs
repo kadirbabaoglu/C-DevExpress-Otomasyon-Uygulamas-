@@ -29,6 +29,7 @@ namespace OtomasyonUygulaması
             frm8 = null;
             frm9 = null;
             frm10 = null;
+            frm11 = null;
         }
 
         FrmUrunler frm;
@@ -152,6 +153,18 @@ namespace OtomasyonUygulaması
                 frm10.MdiParent = this;
                 frm10.FormClosed += new FormClosedEventHandler(FormClosedHandler);
                 frm10.Show();
+            }
+        }
+
+        FrmRaporlar frm11;
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm11 == null)
+            {
+                frm11 = new FrmRaporlar();
+                frm11.MdiParent = this;
+                frm11.FormClosed += new FormClosedEventHandler(FormClosedHandler);
+                frm11.Show();
             }
         }
     }

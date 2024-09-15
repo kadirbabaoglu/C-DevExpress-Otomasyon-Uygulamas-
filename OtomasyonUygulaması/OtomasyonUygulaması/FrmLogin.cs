@@ -40,7 +40,7 @@ namespace OtomasyonUygulaması
             {
                 Form1 form = new Form1();
                 form.Show();
-                this.Hide();
+                this.Close();
             }
             else
             {
