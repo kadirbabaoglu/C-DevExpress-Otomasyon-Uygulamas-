@@ -158,6 +158,7 @@
             this.BtnNotlar.Id = 9;
             this.BtnNotlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnNotlar.ImageOptions.LargeImage")));
             this.BtnNotlar.Name = "BtnNotlar";
+            this.BtnNotlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnNotlar_ItemClick);
             // 
             // BtnBankalar
             // 

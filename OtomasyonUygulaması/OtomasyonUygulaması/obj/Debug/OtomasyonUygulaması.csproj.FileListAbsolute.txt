@@ -59,3 +59,4 @@ C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uyg
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmBankalar.resources
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmFaturalar.resources
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmFaturaUrunDetay.resources
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmNotlar.resources
