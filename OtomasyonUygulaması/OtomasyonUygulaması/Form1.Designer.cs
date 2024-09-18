@@ -197,6 +197,7 @@
             this.BtnAyarlar.Id = 13;
             this.BtnAyarlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnAyarlar.ImageOptions.LargeImage")));
             this.BtnAyarlar.Name = "BtnAyarlar";
+            this.BtnAyarlar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnAyarlar_ItemClick);
             // 
             // barButtonItem2
             // 

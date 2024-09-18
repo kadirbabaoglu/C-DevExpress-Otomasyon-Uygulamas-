@@ -38,15 +38,32 @@ namespace OtomasyonUygulaması
             SqlDataReader reader = sql.ExecuteReader();
             if (reader.Read())
             {
-                Form1 form = new Form1();
-                form.Show();
-                this.Close();
+
+                string role = reader["ROLE"].ToString(); 
+
+                if (role == "admin")
+                {
+                    MessageBox.Show("Admin giriş yaptı", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Form1 form = new Form1();
+                    form.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("User olarak giriş yetkiniz yok", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Tkullaniciadi.Clear();  
+                    Tsifre.Clear();
+                }
+
             }
             else
             {
                 MessageBox.Show("Kullanıcı adı veya şifre hatalı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            reader.Close();
             dbconn.connection().Close();
+           
         }
     }
 }
