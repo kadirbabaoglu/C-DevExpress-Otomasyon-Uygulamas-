@@ -118,6 +118,7 @@
             this.BtnStoklar.Id = 3;
             this.BtnStoklar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnStoklar.ImageOptions.LargeImage")));
             this.BtnStoklar.Name = "BtnStoklar";
+            this.BtnStoklar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnStoklar_ItemClick);
             // 
             // BtnMusteriler
             // 

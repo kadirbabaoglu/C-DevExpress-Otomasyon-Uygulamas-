@@ -155,3 +155,6 @@ C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uyg
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.RichEdit.v24.1.Export.dll
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.dll
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraCharts.v24.1.UI.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraCharts.v24.1.UI.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmStoklar.resources
