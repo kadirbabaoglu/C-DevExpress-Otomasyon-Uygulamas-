@@ -44,6 +44,12 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.Tservername = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.Tdatabasename = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.Crol.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Tsifre.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TkullaniciAdi.Properties)).BeginInit();
@@ -52,6 +58,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.Tid.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Tservername.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tdatabasename.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // Crol
@@ -217,11 +227,75 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.FocusedRowChanged += new DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventHandler(this.gridView1_FocusedRowChanged);
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(102, 141);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(236, 39);
+            this.simpleButton1.TabIndex = 10;
+            this.simpleButton1.Text = "Veri Tabanını Dışa Aktar";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.Tservername);
+            this.groupControl2.Controls.Add(this.simpleButton1);
+            this.groupControl2.Controls.Add(this.labelControl4);
+            this.groupControl2.Controls.Add(this.Tdatabasename);
+            this.groupControl2.Controls.Add(this.labelControl7);
+            this.groupControl2.Location = new System.Drawing.Point(405, 269);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(387, 251);
+            this.groupControl2.TabIndex = 43;
+            this.groupControl2.Text = "Müşteri İşlemleri";
+            // 
+            // Tservername
+            // 
+            this.Tservername.Location = new System.Drawing.Point(102, 64);
+            this.Tservername.Name = "Tservername";
+            this.Tservername.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Tservername.Properties.Appearance.Options.UseFont = true;
+            this.Tservername.Size = new System.Drawing.Size(236, 22);
+            this.Tservername.TabIndex = 42;
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl4.Appearance.Options.UseFont = true;
+            this.labelControl4.Location = new System.Drawing.Point(26, 66);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(75, 14);
+            this.labelControl4.TabIndex = 41;
+            this.labelControl4.Text = "Server Adı : ";
+            // 
+            // Tdatabasename
+            // 
+            this.Tdatabasename.Location = new System.Drawing.Point(102, 92);
+            this.Tdatabasename.Name = "Tdatabasename";
+            this.Tdatabasename.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Tdatabasename.Properties.Appearance.Options.UseFont = true;
+            this.Tdatabasename.Size = new System.Drawing.Size(236, 22);
+            this.Tdatabasename.TabIndex = 2;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl7.Appearance.Options.UseFont = true;
+            this.labelControl7.Location = new System.Drawing.Point(8, 97);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(93, 14);
+            this.labelControl7.TabIndex = 1;
+            this.labelControl7.Text = "Database Adı : ";
+            // 
             // FrmAyarlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1221, 578);
+            this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmAyarlar";
@@ -236,6 +310,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.Tid.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            this.groupControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Tservername.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tdatabasename.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -257,5 +336,11 @@
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraEditors.TextEdit Tid;
         private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private DevExpress.XtraEditors.TextEdit Tservername;
+        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private DevExpress.XtraEditors.TextEdit Tdatabasename;
+        private DevExpress.XtraEditors.LabelControl labelControl7;
     }
 }

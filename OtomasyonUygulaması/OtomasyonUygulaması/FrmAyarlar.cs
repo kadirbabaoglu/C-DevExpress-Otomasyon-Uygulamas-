@@ -101,5 +101,21 @@ namespace OtomasyonUygulaması
             listele();
             temizle();
         }
+
+
+        
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+            DatabaseBackup dbBackup = new DatabaseBackup();
+            string serverName = Tservername.Text;  
+            string databaseName = Tdatabasename.Text;
+            string backupFilePath = @"C:\Yedekler\VeritabaniAdi_Yedek.bak";
+
+            dbBackup.BackupDatabase(serverName, databaseName, backupFilePath);
+
+            
+        }
     }
 }
