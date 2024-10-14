@@ -69,10 +69,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 0);
+            this.gridControl1.Location = new System.Drawing.Point(3, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1217, 521);
+            this.gridControl1.Size = new System.Drawing.Size(1214, 521);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -88,7 +88,7 @@
             this.xtraTabPage2.Controls.Add(this.gridControl2);
             this.xtraTabPage2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage2.ImageOptions.Image")));
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1216, 505);
+            this.xtraTabPage2.Size = new System.Drawing.Size(1216, 521);
             this.xtraTabPage2.Text = "Firmalar";
             // 
             // gridControl2

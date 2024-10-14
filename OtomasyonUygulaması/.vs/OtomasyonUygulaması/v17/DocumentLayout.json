@@ -1,87 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\frmayarlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\databasebackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\databasebackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|c:\\users\\admin\\desktop\\devexpress-otomasyon-uygulamas\\c-devexpress-otomasyon-uygulamas-\\otomasyonuygulamas\u0131\\otomasyonuygulamas\u0131\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB86E442-B7B1-4792-BF10-443C99A08556}|OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131.csproj|solutionrelative:otomasyonuygulamas\u0131\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatabaseBackup.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\DatabaseBackup.cs",
-              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\DatabaseBackup.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\DatabaseBackup.cs",
-              "RelativeToolTip": "OtomasyonUygulamas\u0131\\DatabaseBackup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T19:49:17.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmAyarlar.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmAyarlar.cs",
-              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\FrmAyarlar.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmAyarlar.cs",
-              "RelativeToolTip": "OtomasyonUygulamas\u0131\\FrmAyarlar.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAQwHEAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T19:43:22.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmAyarlar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmAyarlar.cs",
-              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\FrmAyarlar.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\FrmAyarlar.cs [Design]",
-              "RelativeToolTip": "OtomasyonUygulamas\u0131\\FrmAyarlar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T19:42:50.381Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbConnection.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\dbConnection.cs",
-              "RelativeDocumentMoniker": "OtomasyonUygulamas\u0131\\dbConnection.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DevExpress-Otomasyon-Uygulamas\\C-DevExpress-Otomasyon-Uygulamas-\\OtomasyonUygulamas\u0131\\OtomasyonUygulamas\u0131\\dbConnection.cs",
-              "RelativeToolTip": "OtomasyonUygulamas\u0131\\dbConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T19:41:09.601Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

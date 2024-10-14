@@ -159,3 +159,10 @@ C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uyg
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraCharts.v24.1.UI.xml
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmStoklar.resources
 C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmAyarlar.resources
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.SpellChecker.v24.1.Core.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.Extensions.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraSpellChecker.v24.1.dll
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.SpellChecker.v24.1.Core.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraScheduler.v24.1.Extensions.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\bin\Debug\DevExpress.XtraSpellChecker.v24.1.xml
+C:\Users\admin\Desktop\DevExpress-Otomasyon-Uygulamas\C-DevExpress-Otomasyon-Uygulamas-\OtomasyonUygulaması\OtomasyonUygulaması\obj\Debug\OtomasyonUygulaması.FrmKasa.resources

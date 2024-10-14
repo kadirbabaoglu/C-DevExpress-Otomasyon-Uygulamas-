@@ -158,6 +158,7 @@
             this.BtnKasa.Id = 8;
             this.BtnKasa.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnKasa.ImageOptions.LargeImage")));
             this.BtnKasa.Name = "BtnKasa";
+            this.BtnKasa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnKasa_ItemClick);
             // 
             // BtnNotlar
             // 

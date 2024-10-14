@@ -104,14 +104,16 @@ namespace OtomasyonUygulaması
 
 
         
-
+       
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-
+            DateTime localDate = DateTime.Now;
+            String s;
+            s = localDate.ToString("yyyy-MM-dd");
             DatabaseBackup dbBackup = new DatabaseBackup();
             string serverName = Tservername.Text;  
             string databaseName = Tdatabasename.Text;
-            string backupFilePath = @"C:\Yedekler\VeritabaniAdi_Yedek.bak";
+            string backupFilePath = @"C:\Yedekler\VeritabaniAdi_Yedek_"+ s + ".bak";
 
             dbBackup.BackupDatabase(serverName, databaseName, backupFilePath);
 

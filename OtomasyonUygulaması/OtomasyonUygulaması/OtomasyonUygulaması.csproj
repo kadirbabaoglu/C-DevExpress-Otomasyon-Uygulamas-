@@ -50,6 +50,7 @@
     <Reference Include="DevExpress.RichEdit.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.RichEdit.v24.1.Export, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v24.1.UI, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Xpo.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -73,6 +74,8 @@
     <Reference Include="DevExpress.XtraScheduler.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraScheduler.v24.1.Core, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraScheduler.v24.1.Core.Desktop, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v24.1.Extensions, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraTreeList.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraVerticalGrid.v24.1, Version=24.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
@@ -164,6 +167,12 @@
     </Compile>
     <Compile Include="FrmHareketler.Designer.cs">
       <DependentUpon>FrmHareketler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmKasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKasa.Designer.cs">
+      <DependentUpon>FrmKasa.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
@@ -260,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHareketler.resx">
       <DependentUpon>FrmHareketler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmKasa.resx">
+      <DependentUpon>FrmKasa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
