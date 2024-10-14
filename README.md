@@ -40,7 +40,7 @@ Projeyi yerel ortamınıza kurmak için adımlar:
 
 1. Depoyu klonlayın:
    ```bash
-   git clone https://github.com/kullanici/proje-adı.git
+   git clone [https://github.com/kadirbabaoglu/C-DevExpress-Otomasyon-Uygulamas-.git]
 
 2. Proje dizinine gidin: cd proje-adı
 
